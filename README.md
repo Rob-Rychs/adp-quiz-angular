@@ -12,7 +12,7 @@ This was the fastest and laziest solution for the adp-quiz in the history of RED
 
 ng2-quiz is a general purpose quiz application developed in angular 2 that can be used for multiple purpose questions (TRUE or FALSE support coming soon).
 
-Shout out to [Anurag Ghandi].
+Shout out to [softgandhi]
 
 Check it out on [npm]
 
@@ -22,4 +22,4 @@ Or checkout the detailed [documentation]
 [npmsearch]: http://npmsearch.com/
 [npm]: https://www.npmjs.com/package/ng2-quiz
 [documentation]: https://www.codeproject.com/Articles/1167451/Quiz-Application-in-Angular
-[Anurag Gandi]: https://github.com/softgandhi
+[softgandhi]: https://github.com/softgandhi
