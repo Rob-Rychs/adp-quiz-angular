@@ -19,9 +19,9 @@ export class QuizComponent implements OnInit {
     'allowBack': true,
     'allowReview': true,
     'autoMove': true,  // if true, it will move to next question automatically when answered.
-    'duration': 1,  // indicates the time in which quiz needs to be completed. 0 means unlimited.
+    'duration': 0,  // indicates the time in which quiz needs to be completed. 0 means unlimited.
     'pageSize': 1,
-    'requiredAll': false,  // indicates if you must answer all the questions before submitting.
+    'requiredAll': true,  // indicates if you must answer all the questions before submitting.
     'richText': false,
     'shuffleQuestions': true,
     'shuffleOptions': false,
@@ -81,6 +81,12 @@ export class QuizComponent implements OnInit {
   isCorrect(question: Question) {
     return question.options.every(x => x.selected === x.isAnswer) ? 'correct' : 'wrong';
   };
+
+  // counter if question correct
+  correctCount(question: Question) {
+    let count = 0;
+    return question.options.every(x => x.selected === x.isAnswer) ? count++ : count;
+  }
 
   onSubmit() {
     let answers = [];
