@@ -6,6 +6,8 @@ This was the fastest and laziest solution for the adp-quiz in the history of RED
 
 ## ToDos
 
+-checkout data endpoint [here](https://adpquiz-f9b7.restdb.io/rest/quizs?max=2)
+
 - programmatically assign quiz.json to correct data schema for package
 
 - implement a 30 second timer upon the rendering of each question (ng2-quiz PR if you make it configurable)
